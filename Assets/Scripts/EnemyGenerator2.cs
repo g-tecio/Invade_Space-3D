@@ -29,5 +29,17 @@ public class EnemyGenerator2 : MonoBehaviour
         Invoke("CreateEnemy", Random.Range(2, 10));
     }
 
+    void OnDisable()
+    {
+        CancelInvoke("CreateEnemy");
+
+    }
+
+    void OnEnable()
+    {
+        Invoke("CreateEnemy", Random.Range(2, 10));
+
+    }
+
     
 }

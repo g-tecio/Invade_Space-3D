@@ -20,16 +20,17 @@ public class BackgroundColorChange : MonoBehaviour
     public bool Dark, Light;
 
     Transform _sun;
-
+    public GameObject clouds,clouds2,clouds3;
 
     public float t;
+    float current, previous, cont;
 
     Quaternion _originalRot;
 
     ParticleSystem _stars;
 
 
-    bool aux = true;
+    bool aux = true, Negro=true, luz=true;
 
     void Awake()
     {
@@ -47,6 +48,26 @@ public class BackgroundColorChange : MonoBehaviour
 
     void Update()
     {
+
+        current = HighScore.cont;
+        var x = current - previous;
+        cont = HighScore.cont;
+        if (x >= 1000 && Negro == true)
+        {
+            previous = current;
+            TurnDark();
+            Negro = false;
+            luz = false;
+            print("Se va a oscurecer");
+        }
+
+        else if (x >= 1000 && luz == false)
+        {
+            previous = current;
+            TurnLight();
+            Negro = true;
+            luz = true;
+        }
         if (Dark)
         {
             value += 0.001f;
@@ -56,7 +77,9 @@ public class BackgroundColorChange : MonoBehaviour
             {
                 _stars.Play();
                 aux = false;
-                //clouds.SetActive(false);
+                clouds.SetActive(false);
+                clouds2.SetActive(false);
+                clouds3.SetActive(false);
             }
 
             t += 0.0002f;
@@ -71,7 +94,9 @@ public class BackgroundColorChange : MonoBehaviour
             {
                 _stars.Stop();
                 aux = true;
-                //clouds.SetActive(true);
+                clouds.SetActive(true);
+                clouds2.SetActive(true);
+                clouds3.SetActive(true);
             }
 
 

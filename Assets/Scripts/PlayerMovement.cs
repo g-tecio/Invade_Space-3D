@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody rb;
-    public float speed = 15f;
+    public static float speed = 15f;
     //public float interpolation = 0.01f;
     float _origValue;
 

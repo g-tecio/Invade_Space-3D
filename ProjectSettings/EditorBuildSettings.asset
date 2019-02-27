@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu_Scene.unity
     guid: f18f4a240dcc4484ebb08dd474ecd8ac
+  - enabled: 0
+    path: Assets/Materials/AAH.unity
+    guid: fa5291b4da915ae499bc4fdbd2896ed8
+  - enabled: 1
+    path: Assets/Scenes/Veronica_Scene.unity
+    guid: 57a6d7ae1423241499e9a9524c791020
   m_configObjects: {}

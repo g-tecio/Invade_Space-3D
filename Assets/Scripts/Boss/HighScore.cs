@@ -34,4 +34,6 @@ public class HighScore : MonoBehaviour
         //Fetch the health from the PlayerPrefs (set these Playerprefs elsewhere). If no float of this name exists, the default is 0
         high_Score = PlayerPrefs.GetFloat("Score");
     }
+
+    
 }

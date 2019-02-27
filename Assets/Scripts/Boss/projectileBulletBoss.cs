@@ -25,6 +25,7 @@ public class projectileBulletBoss : MonoBehaviour
         transform.Translate(0, 0, -(speed * Time.deltaTime));
     }
 
+
     void DestroyProjectile()
     {
         var p = Instantiate(effect, transform.position, Quaternion.identity);

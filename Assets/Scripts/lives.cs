@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 public class lives : MonoBehaviour
 {
     public Sprite[] vida;
-    public int vida2 = 3;
+    public static int vida2 = 3;
+    
 
 
     void Start()
@@ -21,17 +22,25 @@ public class lives : MonoBehaviour
     
     public void CambioVida(){
         vida2--;
-        this.GetComponent<Image>().sprite = vida[vida2];
+       
 
-        if (vida2 <= 0)
+        if (vida2 <0)
         {
-            SceneManager.LoadScene("Menu_Scene");
+            StartCoroutine(wait());
             
 
+        }else
+        {
+            this.GetComponent<Image>().sprite = vida[vida2];
         }
         
 
         
 
+    }
+    IEnumerator wait()
+    {
+        yield return new WaitForSeconds(0.3f);
+        SceneManager.LoadScene("Menu_Scene");
     }
 }

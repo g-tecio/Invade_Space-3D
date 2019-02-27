@@ -12,6 +12,7 @@ public class BossMovement : MonoBehaviour
     public Transform[] Targets;
 
     void Start()
+
     {
         waitTime = startWaitTime;
         randomSpot = Random.Range(0, Targets.Length);
