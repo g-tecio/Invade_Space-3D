@@ -368,36 +368,6 @@ PlayerSettings:
   - m_BuildTarget: iPhone
     m_Icons:
     - m_Textures:
-      - {fileID: 2800000, guid: fb5fdc08323efd54688d2aca465b06d0, type: 3}
-      m_Width: 87
-      m_Height: 87
-      m_Kind: 1
-      m_SubKind: iPhone
-    - m_Textures:
-      - {fileID: 2800000, guid: 291ab3229db14534f90f819642d42065, type: 3}
-      m_Width: 58
-      m_Height: 58
-      m_Kind: 1
-      m_SubKind: iPhone
-    - m_Textures:
-      - {fileID: 2800000, guid: eb40cc138829ff44fb88c05dd7e87b5a, type: 3}
-      m_Width: 29
-      m_Height: 29
-      m_Kind: 1
-      m_SubKind: iPhone
-    - m_Textures:
-      - {fileID: 2800000, guid: 291ab3229db14534f90f819642d42065, type: 3}
-      m_Width: 58
-      m_Height: 58
-      m_Kind: 1
-      m_SubKind: iPad
-    - m_Textures:
-      - {fileID: 2800000, guid: eb40cc138829ff44fb88c05dd7e87b5a, type: 3}
-      m_Width: 29
-      m_Height: 29
-      m_Kind: 1
-      m_SubKind: iPad
-    - m_Textures:
       - {fileID: 2800000, guid: 81208648b7be4164e9de246f58ae5f95, type: 3}
       m_Width: 1024
       m_Height: 1024
@@ -426,6 +396,36 @@ PlayerSettings:
       m_Width: 20
       m_Height: 20
       m_Kind: 2
+      m_SubKind: iPad
+    - m_Textures:
+      - {fileID: 2800000, guid: fb5fdc08323efd54688d2aca465b06d0, type: 3}
+      m_Width: 87
+      m_Height: 87
+      m_Kind: 1
+      m_SubKind: iPhone
+    - m_Textures:
+      - {fileID: 2800000, guid: 291ab3229db14534f90f819642d42065, type: 3}
+      m_Width: 58
+      m_Height: 58
+      m_Kind: 1
+      m_SubKind: iPhone
+    - m_Textures:
+      - {fileID: 2800000, guid: eb40cc138829ff44fb88c05dd7e87b5a, type: 3}
+      m_Width: 29
+      m_Height: 29
+      m_Kind: 1
+      m_SubKind: iPhone
+    - m_Textures:
+      - {fileID: 2800000, guid: 291ab3229db14534f90f819642d42065, type: 3}
+      m_Width: 58
+      m_Height: 58
+      m_Kind: 1
+      m_SubKind: iPad
+    - m_Textures:
+      - {fileID: 2800000, guid: eb40cc138829ff44fb88c05dd7e87b5a, type: 3}
+      m_Width: 29
+      m_Height: 29
+      m_Kind: 1
       m_SubKind: iPad
     - m_Textures:
       - {fileID: 2800000, guid: 9359462b7ab16484ba7aa7451e031c30, type: 3}

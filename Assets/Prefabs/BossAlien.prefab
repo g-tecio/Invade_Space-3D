@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811996539791612044}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Apuntador1
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 811996539814580811}
   - component: {fileID: 2112721740871431985}
   - component: {fileID: 8226907490277110961}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811996539938382691}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Apuntador4
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -177,7 +177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811996539994376321}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Apuntadores
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,8 +216,7 @@ GameObject:
   - component: {fileID: 619957638317533154}
   - component: {fileID: 3702223297460459880}
   - component: {fileID: 773656375}
-  - component: {fileID: 9091746203218111848}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BossAlien 1 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -316,102 +315,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boss: {fileID: 0}
---- !u!82 &9091746203218111848
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811996540451539344}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 76a514b3fad96c94e8a7c6591435bd1e, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 0.92
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 1
-  BypassListenerEffects: 1
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  explosionboss: {fileID: 1497831810889629246, guid: a9e3090801bc98840805060a86780147,
+    type: 3}
 --- !u!1 &811996540685597263
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,7 +326,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811996540685597262}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Marciano1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,6 +345,7 @@ Transform:
   m_LocalScale: {x: 0.5634765, y: 0.5634765, z: 0.5634765}
   m_Children:
   - {fileID: 811996539814580812}
+  - {fileID: 8711273808219369190}
   m_Father: {fileID: 811996540451539357}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -91.8, z: 0}
@@ -452,7 +358,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811996541098212647}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Apuntador2
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -482,7 +388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811996541632654431}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: shotPoint
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -512,7 +418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811996541825575063}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Apuntador3
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -542,7 +448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4965991315428629033}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BossAlien
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -562,7 +468,6 @@ Transform:
   m_Children:
   - {fileID: 811996539994376321}
   - {fileID: 811996540451539357}
-  - {fileID: 8711273808219369190}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -571,52 +476,57 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 4965991315428629033}
+    m_TransformParent: {fileID: 811996540685597262}
     m_Modifications:
     - target: {fileID: 371685953871508134, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
       propertyPath: m_Name
       value: DonaMarciano
       objectReference: {fileID: 0}
+    - target: {fileID: 371685953871508134, guid: d71cb285e42c9b948a2d0e18165ef8a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 5446954144274431760, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.64
+      value: -6.0742545
       objectReference: {fileID: 0}
     - target: {fileID: 5446954144274431760, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.41
+      value: 0.7276257
       objectReference: {fileID: 0}
     - target: {fileID: 5446954144274431760, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.31
+      value: -6.272194
       objectReference: {fileID: 0}
     - target: {fileID: 5446954144274431760, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.4920847
       objectReference: {fileID: 0}
     - target: {fileID: 5446954144274431760, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.507792
       objectReference: {fileID: 0}
     - target: {fileID: 5446954144274431760, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.507792
       objectReference: {fileID: 0}
     - target: {fileID: 5446954144274431760, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.4920847
       objectReference: {fileID: 0}
     - target: {fileID: 5446954144274431760, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5446954144274431760, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
@@ -636,17 +546,17 @@ PrefabInstance:
     - target: {fileID: 5446954144274431760, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.3549395
       objectReference: {fileID: 0}
     - target: {fileID: 5446954144274431760, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.35493964
       objectReference: {fileID: 0}
     - target: {fileID: 5446954144274431760, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.35493958
       objectReference: {fileID: 0}
     - target: {fileID: 2003021683729989126, guid: d71cb285e42c9b948a2d0e18165ef8a2,
         type: 3}

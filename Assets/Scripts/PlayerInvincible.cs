@@ -7,7 +7,7 @@ public class PlayerInvincible : MonoBehaviour
     public float fadeValue = 0.1f;
     public int numberOfFlashes = 4;
 
-    public bool hit = false;
+    public  bool hit = false;
 
     int _flashes;
 
@@ -17,12 +17,10 @@ public class PlayerInvincible : MonoBehaviour
 
     bool alpha1 = true;
 
-    BoxCollider _box;
 
     void Awake()
     {
         _rend = GetComponentInChildren<Renderer>();
-        _box = GetComponent<BoxCollider>();
     }
 
     void Start()
@@ -46,7 +44,7 @@ public class PlayerInvincible : MonoBehaviour
     {
         if (hit)
         {
-            _box.enabled = false;
+            gameObject.layer = 11;
             if (alpha1)
             {
                 _fade -= fadeValue;
@@ -62,7 +60,7 @@ public class PlayerInvincible : MonoBehaviour
         {
             hit = false;
             numberOfFlashes = 0;
-            _box.enabled = true;
+            gameObject.layer = 0;
         }
     }
 

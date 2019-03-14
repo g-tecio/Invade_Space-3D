@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5138373962146994964}
   m_Layer: 0
   m_Name: nube
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,7 +48,10 @@ MonoBehaviour:
   velocity: -15
   min: -12
   max: -14
+  effect: {fileID: 0}
   nube: 1
+  vida_canvas: {fileID: 0}
+  _timer: 0
 --- !u!54 &5138373962146994964
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -78,7 +81,7 @@ GameObject:
   - component: {fileID: 1820293335}
   m_Layer: 0
   m_Name: default
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

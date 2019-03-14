@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2414466478192216692}
   - component: {fileID: 2414466478192216693}
   - component: {fileID: 2414466478192216698}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BossNave1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77,7 +77,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2414466478205554481}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Apuntador2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2414466478408132196}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Apuntador1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2414466478482228833}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Apuntador3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2414466478498322637}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Apuntador4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2414466478711008956}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: shotPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2414466478733640468}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BossNave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2414466478884660613}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Apuntadores
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,6 +294,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 0ba5e943ac959ad41a6057bf7c30b3da, type: 3}
       propertyPath: m_Name
       value: Vic_Viper_V1.1_Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0ba5e943ac959ad41a6057bf7c30b3da, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0ba5e943ac959ad41a6057bf7c30b3da, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0ba5e943ac959ad41a6057bf7c30b3da, type: 3}
       propertyPath: m_LocalPosition.x

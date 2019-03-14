@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Kill
   - Boss
+  - Cloud
+  - muro
   layers:
   - Default
   - TransparentFX
@@ -20,9 +22,9 @@ TagManager:
   - PostProcessing
   - Player
   - 
+  - cubito
   - 
-  - 
-  - 
+  - Enemy
   - 
   - 
   - 

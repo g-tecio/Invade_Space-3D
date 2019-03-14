@@ -20,7 +20,7 @@ public class BackgroundColorChange : MonoBehaviour
     public bool Dark, Light;
 
     Transform _sun;
-    public GameObject clouds,clouds2,clouds3;
+    public GameObject clouds,clouds2,clouds3,cloud4,cloud5;
 
     public float t;
     float current, previous, cont;
@@ -80,6 +80,8 @@ public class BackgroundColorChange : MonoBehaviour
                 clouds.SetActive(false);
                 clouds2.SetActive(false);
                 clouds3.SetActive(false);
+                cloud4.SetActive(false);
+                cloud5.SetActive(false);
             }
 
             t += 0.0002f;
@@ -97,6 +99,8 @@ public class BackgroundColorChange : MonoBehaviour
                 clouds.SetActive(true);
                 clouds2.SetActive(true);
                 clouds3.SetActive(true);
+                cloud4.SetActive(true);
+                cloud5.SetActive(true);
             }
 
 

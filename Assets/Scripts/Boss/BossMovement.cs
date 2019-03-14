@@ -27,6 +27,7 @@ public class BossMovement : MonoBehaviour
 
     }
 
+
     void moveEnemy()
     {
         transform.position = Vector2.MoveTowards(transform.position, Targets[randomSpot].position, velocity * Time.deltaTime);

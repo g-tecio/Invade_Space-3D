@@ -3,7 +3,10 @@ guid: 50c08395734af5d4d804b3f79d7b2ad9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - effect: {instanceID: 0}
+  - audioplay: {instanceID: 0}
+  - explosion: {fileID: 8300000, guid: 29e0b6132197f1344bb33934f5234f28, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

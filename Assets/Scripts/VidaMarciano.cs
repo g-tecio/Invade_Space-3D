@@ -5,6 +5,7 @@ using UnityEngine;
 public class VidaMarciano : MonoBehaviour
 {
     public BossGenerator boss;
+    public GameObject explosionboss;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,9 +22,10 @@ public class VidaMarciano : MonoBehaviour
     {
         if (other.gameObject.tag == "Kill")
         {
-            boss.Health -= 10;
+            boss.Health -= 5;
             boss.HealthBar.size = boss.Health / 100f;
             if(boss.Health == 0){
+                Instantiate(explosionboss, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
         }

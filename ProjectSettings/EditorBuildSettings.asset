@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Daniela_Scene.unity
     guid: 5371abf928980574593192ebd9a83fb7
   - enabled: 1

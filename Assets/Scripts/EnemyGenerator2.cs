@@ -12,7 +12,7 @@ public class EnemyGenerator2 : MonoBehaviour
     void Start()
     {
 
-        Invoke("CreateEnemy", Random.Range(2, 10));
+        Invoke("CreateEnemy", Random.Range(8, 10));
 
 
     }
@@ -25,9 +25,11 @@ public class EnemyGenerator2 : MonoBehaviour
 
     public void CreateEnemy()
     {
-        Instantiate((enemies[Random.Range(0, enemies.Length - 1)]), transform.position, Quaternion.identity);
-        Invoke("CreateEnemy", Random.Range(2, 10));
+        var nube=Instantiate((enemies[Random.Range(0, enemies.Length - 1)]), transform.position, Quaternion.identity);
+        Destroy(nube, 20);
+        Invoke("CreateEnemy", Random.Range(8, 10));
     }
+
 
     void OnDisable()
     {
